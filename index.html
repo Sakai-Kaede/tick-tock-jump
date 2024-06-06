@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 文字コードを指定 -->
+        <meta charset="UTF-8">
+        <title>ちくたくジャンプ</title>
+        <!-- スタイルシートの読み込み -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- webアイコン -->
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="./img/apple-touch-icon-180x180.png" sizes="180x180">
+        <link rel="icon" type="image/png" href="./img/android-chrome-192x192.png" sizes="192x192">
+    </head>
+    <body>
+        <!-- フォームのHTMLコード -->
+        <form id="myForm">
+            <p>ランキングに記録するプレイヤー名を入力してください</p>
+            <label for="inputText">プレイヤー名:</label>
+            <input type="text" id="inputText" name="userName" required>
+            <br>
+            <input type="submit" value="送信" id="submitButton">
+        </form>
+        <!-- ID 属性を持つ canvas エレメント -->
+        <canvas id="clock"></canvas>
+        <!-- JavaScript ファイルの読み込み -->
+        <script src="./script/character.js"></script>
+        <script src="./script/scene.js"></script>
+        <script src="./script/script.js"></script>
+    </body>
+</html>

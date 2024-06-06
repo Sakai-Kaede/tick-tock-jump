@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>遊び方</title>
+  <link rel="stylesheet" href="./css/howTo.css">
+  <!-- webアイコン -->
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./img/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" type="image/png" href="./img/android-chrome-192x192.png" sizes="192x192">
+</head>
+
+<body>
+  <h1>How to Play</h1>
+  <p>「大ジャンプ」と「逆回転ギミック」について説明します</p>
+
+  <div id="card-container-1">
+    <div id="slider-1">
+      <div class="slide"><img src="./img/ExplanationBigJump_1.png" alt="ExplanationBigJump-1"></div>
+      <div class="slide"><img src="./img/ExplanationBigJump_2.png" alt="ExplanationBigJump-2"></div>
+      <div class="slide"><img src="./img/ExplanationBigJump_3.png" alt="ExplanationBigJump-3"></div>
+    </div>
+    <div class="slide-content">
+      ジャンプボタンを長押しして、星が出ると大ジャンプが可能<br>
+      二つの針が迫って来た時に、まとめて飛び越えよう
+    </div>
+    <button onclick="nextSlide(1)">Next</button>
+  </div>
+
+  <div id="card-container-2">
+    <div id="slider-2">
+      <div class="slide"><img src="./img/ExplanationReverseRotation_1.png" alt="ExplanationReverseRotation_1"></div>
+      <div class="slide"><img src="./img/ExplanationReverseRotation_2.png" alt="ExplanationReverseRotation_2"></div>
+      <div class="slide"><img src="./img/ExplanationReverseRotation_3.png" alt="ExplanationReverseRotation_3"></div>
+    </div>
+    <div class="slide-content">
+      デジタル時計に対応した時刻を、針が指すと回転が逆になる<br>
+      惑わされずに、タイミングを計ろう
+    </div>
+    <button onclick="nextSlide(2)">Next</button>
+  </div>
+
+  <script src="./script/slide.js"></script>
+</body>
+
+</html>
