@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "xs167728_root";
-$password = "LNK.x5zxWvFWxBX";
-$dbname = "xs167728_mygame";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 // データベースに接続
 $conn = new mysqli($servername, $username, $password, $dbname);
